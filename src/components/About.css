@@ -1,0 +1,5 @@
+.about {
+    margin: var(--margin);
+    padding: var(--padding);
+    text-align: left;
+}
