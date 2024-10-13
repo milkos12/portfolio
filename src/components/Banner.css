@@ -1,24 +1,31 @@
 .mainBanner {
     display: grid;
-    grid-template-rows: 40px 70px;
+    grid-template-rows: 50px 70px;
     margin: var(--margin);
     padding: var(--padding);
     border: var(--border-size) solid #000000;
-    border-radius: 10px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
     text-align: left;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .mainBanner h3 {
-    font-weight: 400;
+    font-weight: 120;
 }
 
 .mainBanner-socialLinks {
-    width: 110px;
+    width: 90px;
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
 .mainBanner-socialLinks svg{
-    width: 25px;
+    width: 20px;
     cursor: pointer;
+}
+
+.mainBanner h1 {
+    font-size: 40px;
 }

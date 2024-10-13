@@ -1,0 +1,35 @@
+.experience {
+    margin: var(--margin);
+    padding: var(--padding-others-boxs);
+    text-align: left;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+}
+
+.experience-content {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.experience-content-experience-tecnologies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    column-gap: 10px;
+    align-items: center;
+}
+
+.experience-content-experience-tecnologies div {
+    display: grid;
+    border: 1px solid #000000;
+    text-align: center;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-content-experience-tecnologies div p{
+    padding: 0;
+    margin: 0;
+}

@@ -1,5 +1,6 @@
 .about {
-    margin: var(--margin);
-    padding: var(--padding);
+    border-top: .5px solid #ffffff;
+    margin-top: 40px;
     text-align: left;
+    font-weight: 120;
 }
