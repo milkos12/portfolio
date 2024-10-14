@@ -8,28 +8,47 @@
 
 .projects-content {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: auto;
 }
 
+
 .projects-content-projects-tecnologies {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 100px);
+    display: flex;
+    grid-auto-columns: min-content;
+    flex-wrap: wrap;
     column-gap: 10px;
+    row-gap: 10px;
     align-items: center;
 }
 
 .projects-content-projects-tecnologies div {
     display: grid;
-    border: 1px solid #000000;
+    border: 1px solid #FFFFFF;
     text-align: center;
     height: 25px;
     border-radius: 20px;
     font-size: 13px;
     justify-content: center;
     align-items: center;
+    width: auto;
+    padding: 5px 10px;
 }
 
 .projects-content-projects-tecnologies div p{
     padding: 0;
     margin: 0;
 }
+
+.projects-content-img {
+    margin-top: 30px;
+    max-width: 100%;
+    box-shadow: 1px 1px 5px 0px rgba(255,255,255,1);
+    border-radius: var(--radius);
+    justify-self: center;
+    margin-bottom: 40px;
+}
+
+.projects-content p {
+    font-weight: 200;
+}
+

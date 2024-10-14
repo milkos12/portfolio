@@ -5,12 +5,13 @@ export const Experience = () => {
         <div className="experience">
             <h1>Experience</h1>
             <div className='experience-content'>
-                <div>
-                    <h5>2024 — Present</h5>
-                </div>
-                <div>
-                    <h5>Senior Frontend Engineer, Accessibility · Klaviyo</h5>
-                    <p>Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.</p>
+                <div >
+                    <div>
+                        <h5>2024 — Present</h5>
+                    </div>
+                    <h5>Tech Fellow · VelezReyez+</h5>
+                    <p>
+                        I develop software in a team using technologies such as AWS, JavaScript, and Python to implement cloud solutions. I manage cloud deployments with GitHub Actions CI/CD. Under the guidance of experts, I am developing in the world of technology in Latin America.</p>
                     <div className='experience-content-experience-tecnologies'>
                         <div>
                             <p>JavaScript</p>
@@ -22,31 +23,74 @@ export const Experience = () => {
                             <p>React</p>
                         </div>
                         <div>
-                            <p>Storbook</p>
+                            <p>AWS</p>
+                        </div>
+                        <div>
+                            <p>Python</p>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <h5>2024 — Present</h5>
-                </div>
-                <div>
-                    <h5>Senior Frontend Engineer, Accessibility · Klaviyo</h5>
-                    <p>Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.</p>
+                    <div>
+                        <h5>oct 2022 — nov 2022</h5>
+                    </div>
+                    <h5>Junior Platform Analyst · UBITS</h5>
+                    <p>I developed an automation in JavaScript that converts content from Google documents to HTML and CSS. This tool reduced the conversion time by approximately <b>60%</b> and minimized errors.</p>
                     <div className='experience-content-experience-tecnologies'>
                         <div>
                             <p>JavaScript</p>
                         </div>
                         <div>
-                            <p>TypeScript</p>
+                            <p>Apps Script</p>
                         </div>
                         <div>
-                            <p>React</p>
+                            <p>CSS</p>
                         </div>
                         <div>
-                            <p>Storbook</p>
+                            <p>HTML</p>
+                        </div>
+                        <div>
+                            <p>Python</p>
+                        </div>
+                        <div>
+                            <p>Looker Studio</p>
+                        </div>
+                        <div>
+                            <p>Google Sheets</p>
                         </div>
                     </div>
                 </div>
+                <div>
+                    <div>
+                        <h5>apr 2022 — sept 2022</h5>
+                    </div>
+                    <h5>Launch Analyst · UBITS</h5>
+                    <p>I automated a part of the process for sending credentials to new students using JavaScript and Python, decreasing the time required for dispatch and reducing failures. Additionally, I integrated APIs from CRMs, Google GCP, and email marketing platforms to automate processes, improving operational efficiency by almost 100%.</p>
+                    <div className='experience-content-experience-tecnologies'>
+                        <div>
+                            <p>JavaScript</p>
+                        </div>
+                        <div>
+                            <p>Apps Script</p>
+                        </div>
+                        <div>
+                            <p>CSS</p>
+                        </div>
+                        <div>
+                            <p>HTML</p>
+                        </div>
+                        <div>
+                            <p>CRMs</p>
+                        </div>
+                        <div>
+                            <p>Looker Studio</p>
+                        </div>
+                        <div>
+                            <p>Google Sheets</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     );

@@ -6,46 +6,19 @@ export const Projects = () => {
             <h1>Projects</h1>
             <div className='projects-content'>
                 <div>
-                    <h5>2024 — Present</h5>
-                </div>
-                <div>
-                    <h5>Senior Frontend Engineer, Accessibility · Klaviyo</h5>
-                    <p>Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.</p>
+                    <h5>Clone Log In · Spotify</h5>
+                    <p>I independently developed a <b>Spotify login clone using React.</b> This project allowed me to replicate the interface and functionality of the original login, enhancing my web development skills with this framework.</p>
                     <div className='projects-content-projects-tecnologies'>
                         <div>
                             <p>JavaScript</p>
                         </div>
                         <div>
-                            <p>TypeScript</p>
-                        </div>
-                        <div>
                             <p>React</p>
-                        </div>
-                        <div>
-                            <p>Storbook</p>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <h5>2024 — Present</h5>
-                </div>
-                <div>
-                    <h5>Senior Frontend Engineer, Accessibility · Klaviyo</h5>
-                    <p>Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.</p>
-                    <div className='projects-content-projects-tecnologies'>
-                        <div>
-                            <p>JavaScript</p>
-                        </div>
-                        <div>
-                            <p>TypeScript</p>
-                        </div>
-                        <div>
-                            <p>React</p>
-                        </div>
-                        <div>
-                            <p>Storbook</p>
-                        </div>
-                    </div>
+                    <img src='image.png' alt="img log in spotify"  className='projects-content-img'/>
                 </div>
             </div>
         </div>
