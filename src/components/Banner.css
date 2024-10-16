@@ -1,6 +1,17 @@
+@media (width >= 1015px) {
+    .mainBanner {
+        grid-row: 1; 
+        max-height: 200px;
+        position: sticky;
+        top: 110px;
+    }
+    
+}
+
+
 .mainBanner {
     display: grid;
-    grid-template-rows: 50px 70px;
+    grid-template-rows: 70px 70px;
     margin: var(--margin);
     padding: var(--padding);
     border: var(--border-size) solid #000000;
@@ -16,17 +27,22 @@
 }
 
 .mainBanner-socialLinks {
-    width: 90px;
+    width: 115px;
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
 .mainBanner-socialLinks svg{
-    width: 20px;
+    width: 25px;
     cursor: pointer;
     color: #FFFFFF;
 }
 
-.mainBanner h1 {
-    font-size: 40px;
+.mainBanner-socialLinks svg:hover {
+    opacity: .8;
 }
+
+.mainBanner h1 {
+    font-size: 50px;
+}
+

@@ -1,16 +1,17 @@
 @media (width >= 1015px) {
     .App {
-        position: relative;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 40% 50%;
+        column-gap: 150px;
         grid-template-rows: auto 400px;
-    }
-
-    .banner {
-        grid-row: 1; 
+        grid-auto-rows: none;
+        height: 100%;
+        padding: 50px 125px;
+        margin-top: 50px;
     }
 
     .decriptions {
         height: auto;
+        
     }
 }

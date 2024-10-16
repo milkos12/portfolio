@@ -1,3 +1,20 @@
+@media (width >= 1015px) {
+    .experience h1{
+        display: none;
+    }
+
+    .experience-content h5{
+        opacity: 0.6;
+    }
+}
+
+@media (width >= 640px) {
+    .experience-content-description{
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+}
+
 .experience {
     margin: var(--margin);
     padding: var(--padding-others-boxs);
@@ -13,20 +30,8 @@
     row-gap: 50px;
 }
 
-@media (width >= 640px) {
-    .experience-content-description{
-        display: grid;
-        grid-template-columns: 30% 70%;
-    }
-}
-
 .experience-content div {
     padding: 0;
-}
-
-.experience-content-description div h5 {
-    color: #F9F9F9;
-    font-weight: 200;
 }
 
 .experience-content-experience-tecnologies {
