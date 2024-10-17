@@ -7,7 +7,7 @@ export const Experience = () => {
             <div className='experience-content'>
                 <div className='experience-content-description'>
                     <div>
-                        <h5>2024 — Present</h5>
+                        <h5>2024<wbr /> — <wbr />Present</h5>
                     </div>
                     <div>
                         <h5>Tech Fellow &nbsp;&nbsp;·&nbsp;&nbsp; VelezReyez+</h5>
@@ -35,7 +35,7 @@ export const Experience = () => {
                 <div>
                     <div className='experience-content-description'>
                         <div>
-                            <h5>oct 2022 — nov 2022</h5>
+                            <h5>oct 2022<wbr /> — <wbr />nov 2022</h5>
                         </div>
                         <div>
                             <h5>Junior Platform Analyst&nbsp;&nbsp; ·&nbsp;&nbsp; UBITS</h5>

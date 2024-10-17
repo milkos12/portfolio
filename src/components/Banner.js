@@ -5,8 +5,10 @@ export const Banner = () => {
 
     return (
         <div className='mainBanner'>
+            <div>
             <h1>Miller Andres OC</h1>
             <h3>Software Engineer</h3>
+            </div>
             <div className='mainBanner-socialLinks'>
                 <a href='https://www.linkedin.com/in/miller-andres-ostos-castro-ti/' target='_blank'>
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" fill="currentColor" >
