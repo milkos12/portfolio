@@ -3,15 +3,11 @@
         display: grid;
         grid-template-columns: 40% 50%;
         column-gap: 150px;
-        grid-template-rows: auto 400px;
+        grid-template-rows: auto auto;
         grid-auto-rows: none;
         height: 100%;
         padding: 50px 125px;
         margin-top: 50px;
     }
 
-    .decriptions {
-        height: auto;
-        
-    }
 }
