@@ -5,6 +5,33 @@ export const Experience = () => {
         <div className="experience">
             <h1>Experience</h1>
             <div className='experience-content'>
+            <div className='experience-content-description'>
+                    <div>
+                        <h5>2024<wbr /> — <wbr />Present</h5>
+                    </div>
+                    <div>
+                        <h5>Software Developer &nbsp;&nbsp;·&nbsp;&nbsp; VelezReyez+</h5>
+                        <p>
+                        I participated in developing an alluvial visualization from scratch using the D3.js library. The goal was to graphically represent inequality groups across different time ranges. My contribution included the design and implementation of the alluvial metric and in the refactoring for the correct resizing of the tree graph</p>
+                        <div className='experience-content-experience-tecnologies'>
+                            <div>
+                                <p>JavaScript</p>
+                            </div>
+                            <div>
+                                <p>React</p>
+                            </div>
+                            <div>
+                                <p>D3.js</p>
+                            </div>
+                            <div>
+                                <p>Python</p>
+                            </div>
+                            <div>
+                                <p>CRMs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className='experience-content-description'>
                     <div>
                         <h5>2024<wbr /> — <wbr />Present</h5>

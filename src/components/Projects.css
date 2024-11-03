@@ -42,6 +42,7 @@
 .projects-content-img {
     margin-top: 30px;
     max-width: 100%;
+    text-align: center;
     box-shadow: 1px 1px 5px 0px rgba(255,255,255,1);
     border-radius: var(--radius);
     justify-self: center;
@@ -50,5 +51,23 @@
 
 .projects-content p {
     font-weight: 200;
+}
+
+@media (width <= 1008px) {
+    .projects-content-img {
+        max-width: 350px;
+    }
+}
+
+.projects-content-conteiner-title {
+    display: grid;
+    grid-template-columns: 150px 20px 20px;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.projects-content-conteiner-title .projects-content-links:hover {
+    cursor: pointer;
+    opacity: .8;
 }
 
