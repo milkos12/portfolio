@@ -9,7 +9,115 @@
     .mainBanner h1 {
         white-space: nowrap;
     }
+
+    @keyframes stronaunt {
+        0% {
+            
+            opacity: 1;
+        }
+        15% {
+            top: -620%;
+        }
+        25% {
+            left: 40%;
+            top: -600%;
+        }
     
+        37.5% {
+            top: -620%;
+        }
+    
+        50% {
+            left: 20%;
+            top: -600%;
+            opacity: 1;
+        }
+    
+        60% {
+            left: 20%;
+            top: -600%;
+            opacity: 1;
+        }
+    
+        70% {
+            top: -620%;
+        }
+    
+        80% {
+            left: 40%;
+            top: -600%;
+        }
+    
+        90% {
+            top: -620%;
+        }
+    
+        100% {
+            left: 60%;
+            opacity: 1;
+        }
+    }
+
+    @keyframes up-sapcecraft {
+        0% {
+            top: 120%;
+            left: -50%;
+            transform: rotate(0deg);
+            opacity: 1;
+        }
+    
+        50% {
+            top: -300%;
+            transform: rotate(-18deg);
+            left: 50%;
+        }
+    
+        100% {
+            top: -180%;
+            left: 50%;
+            opacity: 1;
+        }
+    }
+    
+    @keyframes comeback-sapacecraft {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            top: -340%;
+            transform: rotate(100deg);
+        }
+    
+        100% {
+            left: 350%;
+            opacity: 1;
+        }
+    }
+
+    @keyframes hello {
+        0% {
+            opacity: 1;
+            top: -1160%;
+    
+        }
+        50% {
+            top: -1140%;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: -1150%;
+            opacity: 0;
+        }
+    }
+    
+}
+
+@media (width < 1015px) {
+    .mainBanner-socialLinks-hello, .mainBanner-socialLinks-stronaunt, .mainBanner-socialLinks-spacecraft {
+        display: none;
+    }
 }
 
 
@@ -24,6 +132,7 @@
     text-align: left;
     background-color: #000000;
     color: #FFFFFF;
+    
 }
 
 .mainBanner-socialLinks {
@@ -54,4 +163,43 @@
 .mainBanner h1, .mainBanner h3 {
     padding: 0;
     margin: 0;
+}
+
+
+.mainBanner-socialLinks-spacecraft {
+    z-index: 10;
+    position: relative;
+    height: 160px;
+    animation-name: up-sapcecraft, comeback-sapacecraft;
+    animation-duration: 12s, 12s;
+    animation-delay: 0s, 14s;
+    transform: rotate(-18deg);
+    top: -180%;
+    left: 50%;
+
+}
+
+
+.mainBanner-socialLinks-stronaunt {
+    z-index: 9;
+    position: relative;
+    top: -600%;
+    left: 60%;
+    height: 60px;
+    transform: rotate(18deg);
+    animation-name: stronaunt;
+    animation-duration: 14s;
+    opacity: 0;
+}
+
+.mainBanner-socialLinks-hello {
+    position: relative;
+    top: -1150%;
+    left: 27%;
+    height: 40px;
+    transform: rotate(20deg);
+    animation-name: hello;
+    animation-duration: 3s;
+    animation-delay: 5.5s;
+    opacity: 0;
 }

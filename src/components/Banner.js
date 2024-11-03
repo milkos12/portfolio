@@ -1,7 +1,13 @@
 import './Banner.css';
 import About from './About';
+import { useRef } from 'react';
 
 export const Banner = () => {
+    const spacecraftRef = useRef(null);
+
+    setTimeout(() => {
+        spacecraftRef.current.style.display = 'none';
+    }, 24000);
 
     return (
         <div className='mainBanner'>
@@ -26,7 +32,11 @@ export const Banner = () => {
                 </svg>
                 </a>
             </div>
+            
             <About />
+            <img className='mainBanner-socialLinks-spacecraft' src='spacecraft.png' ref={spacecraftRef} />
+            <img className='mainBanner-socialLinks-stronaunt' src='astronaut.png'  />
+            <img className='mainBanner-socialLinks-hello' src='hello.png' />
         </div>
     );
 }
