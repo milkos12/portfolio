@@ -41,6 +41,7 @@
     column-gap: 10px;
     row-gap: 10px;
     align-items: center;
+    margin-top: 20px;
 }
 
 .experience-content-experience-tecnologies div {
@@ -63,4 +64,28 @@
 
 .experience-content p {
     font-weight: 200;
+}
+
+.experience-content-details {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.experience-content-details img {
+    margin-bottom: 0;
+}
+
+.experience-content-details-title {
+    margin-top: 20px;
+    color: #FFFFFF;
+    display: flex;
+    width: auto;
+}
+
+.experience-content-details-title-svg {
+    width: 20px;
+}
+ 
+.experience-content-details-title-svg:hover {
+    cursor: pointer;
 }

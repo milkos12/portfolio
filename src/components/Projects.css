@@ -46,7 +46,6 @@
     box-shadow: 1px 1px 5px 0px rgba(255,255,255,1);
     border-radius: var(--radius);
     justify-self: center;
-    margin-bottom: 40px;
 }
 
 .projects-content p {
@@ -60,8 +59,7 @@
 }
 
 .projects-content-conteiner-title {
-    display: grid;
-    grid-template-columns: 150px 20px 20px;
+    display: flex;
     align-items: center;
     column-gap: 10px;
 }
