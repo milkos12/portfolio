@@ -69,3 +69,11 @@
     opacity: .8;
 }
 
+.projects-content-conteiner-title-links {
+    width: 20px;
+    stroke: #FFFFFF;
+}
+
+.projects-content-conteiner-title-links:hover {
+    stroke: #F1F1F1;
+}
