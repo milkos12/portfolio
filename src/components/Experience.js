@@ -44,7 +44,28 @@ export const Experience = () => {
                                     </a>
                                 </div>
                                 <p>Optimized the graph's positioning to fit correctly within the available space, enhancing its visualization.</p>
-                                <img className='projects-content-img experience-content-details-img' src='/gifs/refactor-tree-graph-v2.gif'></img>
+                                <img className='projects-content-img experience-content-details-img' src='/gifs/refactors-graph-tree.gif'></img>
+                                <div className='experience-content-experience-tecnologies '>
+                                    <div>
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div>
+                                        <p>React</p>
+                                    </div>
+                                    <div>
+                                        <p>D3.js</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='projects-content-conteiner-title experience-content-details-title'>
+                                    <h5 style={{ color: '#FFFFFF' }} >Tree graph node sizing</h5>
+                                    <a href='https://geom.ecineq.org/country-profile/' target='_blank' style={{ color: '#ffffff' }} className='experience-content-details-title-svg'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className='projects-content-links'><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline className='projects-content-links-arrow' points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                    </a>
+                                </div>
+                                <p>Implemented dynamic node size adjustment in the tree visualization based on corresponding node sizes from the bubble chart.</p>
+                                <img className='projects-content-img experience-content-details-img' src='/gifs/size-nodes.gif'></img>
                                 <div className='experience-content-experience-tecnologies '>
                                     <div>
                                         <p>JavaScript</p>
