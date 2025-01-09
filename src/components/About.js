@@ -9,7 +9,8 @@ export const About = () => {
         <div className='about' >
             <h4>ABOUT</h4>
             <p>
-            With over a year of experience in React JS, and technologies such as JavaScript, APIs, and No-code tools, I have worked on process automation and data visualization, optimizing operational efficiency in projects.
+            With a experience in React JS, and technologies such as JavaScript, APIs, and No-code tools, I have worked on process automation and data visualization, optimizing operational efficiency in projects.
+            <br />
             <br />
             <br />
             </p>
