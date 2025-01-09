@@ -9,6 +9,7 @@
     .mainBanner h1 {
         white-space: nowrap;
     }
+}
 
     @keyframes stronaunt {
         0% {
@@ -82,15 +83,12 @@
     @keyframes comeback-sapacecraft {
         0% {
             opacity: 1;
+            z-index: 10;
         }
-        50% {
-            top: -340%;
-            transform: rotate(100deg);
-        }
-    
         100% {
-            left: 350%;
-            opacity: 1;
+            top: -640%;
+            left: -300%;
+            transform: rotate(-200deg);
         }
     }
 
@@ -112,7 +110,6 @@
         }
     }
     
-}
 
 @media (width < 1015px) {
     .mainBanner-socialLinks-hello, .mainBanner-socialLinks-stronaunt, .mainBanner-socialLinks-spacecraft {

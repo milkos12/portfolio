@@ -89,3 +89,10 @@
 .experience-content-details-title-svg:hover {
     cursor: pointer;
 }
+
+
+
+.experience-content-sticky-title {
+    position: sticky;
+    top: 0;
+}

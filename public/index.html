@@ -30,9 +30,13 @@
     </div>
     <div>
       <p>Build by</p>
-      <h6>© 2024 Miller Andres OC</h6>
+      <h6>© <span id="year"></span> Miller Andres OC</h6>
     </div>
   </footer>
 </body>
+<script async src="https://www.instagram.com/embed.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 
 </html>
